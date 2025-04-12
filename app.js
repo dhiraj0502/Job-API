@@ -8,7 +8,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "https://react-job-portal-react.onrender.com",
+    origin: "https://jobs-ui.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
 );
